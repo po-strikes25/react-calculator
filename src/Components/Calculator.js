@@ -51,15 +51,15 @@ export const Calculator = () => {
             let sum = Number(a) + Number(b);
             setResult(sum);
             console.log(result);
-        } else if (operator == '-') {
+        } else if (operator === '-') {
             let difference = Number(a) - Number(b);
             setResult(difference);
             console.log(result);
-        } else if (operator == '*') {
+        } else if (operator === '*') {
             let product = Number(a) * Number(b);
             setResult(product);
             console.log(result);
-        } else if (operator == '/') {
+        } else if (operator === '/') {
             let quotient = Number(a) / Number(b);
             setResult(quotient);
             console.log(result);
